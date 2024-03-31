@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: black;
+    margin: 34px 64px;
+}
+
+.header-css{
+    background-color: black;
+}
+
+.logo, .logo:visited {
+    font-size: 24px;
+    font-weight: 600;
+    color: white !important;
+    text-decoration: none !important;
+    cursor: pointer;  
+}
+
+.green-span {
+    color: #E7FE58;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 15px; 
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #F3FF95;
+}
+
+.footer-container {
+    background-color: #0F1114;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+    margin: 0;
+}
+
+.hero-title {
+    color: white;
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.span-green {
+    color: #D6F525;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.box-hero {
+    margin-top: 230px;
+}
+
+.hero-text {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.button-hero {
+    margin-top: 20px;
+}
+
+.text-box {
+    position: relative;
+    /* Required for absolute positioning */
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.feature-title {
+    color: #D6F526;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.feature-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.card-title {
+    color: #D6F526;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-text {
+    color: white;
+}
+
+.hero-title{
+    color:white;
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom:20px;
+
+}
+.span-green{
+    color:#D6F525;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+.box-hero{
+    margin-top: 170px;
+    margin-left: 60px;
+}
+.hero-text{
+    font-size: 16px;
+    color:white;
+    font-weight: 500;
+    line-height: 1.7;
+    
+}
+.button-hero{
+   margin-top:20px;
+   margin-bottom:150px;
+}
+.img-css{
+    border-radius: 10px;
+}
+.container{
+    margin-top:30px;
+}

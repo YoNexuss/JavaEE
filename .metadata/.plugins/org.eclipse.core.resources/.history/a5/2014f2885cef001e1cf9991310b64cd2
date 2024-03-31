@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="row"></div>
+    <div class="row text-box" style="position: relative; text-align: center; margin-top: 150px; margin-bottom: 100px;">
+        <div class="col-md text-content" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <h2 class="feature-title" style="color: #D6F526; font-size: 36px; font-weight: 500;">WHY CHOOSE US?</h2>
+            <h6 class="feature-text" style="color: white; font-size: 18px; font-weight: 500;">Explore our features, these are our key points we constantly work on.</h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md">
+            <div class="card" style="background-color: #0F1114; border: 0.7px solid #656666;">
+                <img class="card-img-top" src="../../../../../assets/anastase-maragos-7kEpUPB8vNk-unsplash.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #D6F526; font-size: 24px; font-weight: 500;">Card title</h5>
+                    <p class="card-text" style="color: white;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="card" style="background-color: #0F1114; border: 0.7px solid #656666;">
+                <img class="card-img-top" src="../../../../../assets/gym.jpg" alt="Card image cap" class="img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #D6F526; font-size: 24px; font-weight: 500;">Card title</h5>
+                    <p class="card-text" style="color: white;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="card" style="background-color: #0F1114; border: 0.7px solid #656666;">
+                <img class="card-img-top" src="../../../../../assets/anastase-maragos-HyvE5SiKMUs-unsplash.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #D6F526; font-size: 24px; font-weight: 500;">Card title</h5>
+                    <p class="card-text" style="color: white;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

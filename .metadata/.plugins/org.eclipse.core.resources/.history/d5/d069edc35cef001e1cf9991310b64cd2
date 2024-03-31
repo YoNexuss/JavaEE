@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<header class="container-fluid header-css">
+    <div class="row align-items-center header-content">
+        <div class="col-md-auto">
+            <a href="/" class="logo" >
+                Flex <span class="green-span">Gym</span>
+            </a>
+        </div>
+        <div class="col-md">
+            <nav class="text-center">
+                <ul class="nav-links" >
+                    <li><a href="/" >Offres</a></li>
+                    <li><a href="/" >Courses</a></li>
+                    <li><a href="/calendar-client" >Calendar</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-md-auto buttons">
+                <a href="#">
+                    <button style="background-color: #0F1114; color: #FFF;">Reclam</button>
+                </a>
+                <a href="#">
+                    <button style="background-color: #E7FE58; color: #000;">Log In</button>
+                </a>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,20 @@
+package mvcModel;
+
+import jakarta.ejb.LocalBean;
+import jakarta.ejb.Stateless;
+
+/**
+ * Session Bean implementation class courService
+ */
+@Stateless
+@LocalBean
+public class courService {
+
+    /**
+     * Default constructor. 
+     */
+    public courService() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

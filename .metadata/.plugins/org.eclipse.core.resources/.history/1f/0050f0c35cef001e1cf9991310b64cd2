@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-5 box-hero justify-content-center" style="margin-top: 230px;">
+            <h2 class="hero-title" style="color:white; font-size: 64px; font-weight: 600; margin-bottom:20px;">Where <span class="span-green" style="color:#D6F525;">Passion</span><br>Builds <span class="span-green" style="color:#D6F525;">Strength</span></h2>
+            <p class="hero-text" style="font-size: 16px; color:white; font-weight: 500; line-height: 1.7;">Flex Gym isn't just about reps and sets; it's where we<br> ignite your passion for fitness and sculpt your <br>inner strength.</p>
+            <div class="button-hero" style="margin-top:20px;">
+                <button class="btn" style="color:#E7FE58; background-color:#000;">Check Offres</button>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <img src="../../../../../assets/anastase-maragos-9dzWZQWZMdE-unsplash.jpg" alt="hero-image" class="img-fluid" style="max-width: 100%; height: auto; margin-top: 100px;">
+        </div>
+    </div>
+</div>

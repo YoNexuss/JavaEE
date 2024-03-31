@@ -1,0 +1,20 @@
+package mvcModel;
+
+import jakarta.ejb.LocalBean;
+import jakarta.ejb.Stateless;
+
+/**
+ * Session Bean implementation class calendrierService
+ */
+@Stateless
+@LocalBean
+public class calendrierService {
+
+    /**
+     * Default constructor. 
+     */
+    public calendrierService() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

@@ -1,0 +1,26 @@
+<header class="container-fluid" style="background-color: black;">
+    <div class="row align-items-center header-content">
+        <div class="col-md-auto">
+            <a href="/" class="logo" style="font-size: 24px; font-weight: 600; color: white !important; text-decoration: none !important; cursor: pointer;">
+                Flex <span class="green-span" style="color: #E7FE58;">Gym</span>
+            </a>
+        </div>
+        <div class="col-md">
+            <nav class="text-center">
+                <ul class="nav-links" style="list-style: none; padding: 0; margin: 0;">
+                    <li><a href="/" style="text-decoration: none; color: white; font-weight: 600; transition: all 0.3s ease;">Offres</a></li>
+                    <li><a href="/" style="text-decoration: none; color: white; font-weight: 600; transition: all 0.3s ease;">Courses</a></li>
+                    <li><a href="/calendar-client" style="text-decoration: none; color: white; font-weight: 600; transition: all 0.3s ease;">Calendar</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-md-auto buttons">
+                <a href="#">
+                    <button style="background-color: #0F1114; color: #FFF;">Reclam</button>
+                </a>
+                <a href="#">
+                    <button style="background-color: #E7FE58; color: #000;">Log In</button>
+                </a>
+        </div>
+    </div>
+</header>

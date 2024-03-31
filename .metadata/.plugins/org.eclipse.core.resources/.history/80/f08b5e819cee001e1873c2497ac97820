@@ -1,0 +1,20 @@
+package mvcModel;
+
+import jakarta.ejb.LocalBean;
+import jakarta.ejb.Stateless;
+
+/**
+ * Session Bean implementation class offreService
+ */
+@Stateless
+@LocalBean
+public class offreService {
+
+    /**
+     * Default constructor. 
+     */
+    public offreService() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

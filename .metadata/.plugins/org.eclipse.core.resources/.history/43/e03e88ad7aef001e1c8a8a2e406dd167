@@ -1,0 +1,69 @@
+package mvcModel;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import entities.Offre;
+import jakarta.ejb.LocalBean;
+import jakarta.ejb.Stateless;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.TypedQuery;
+
+/**
+ * Session Bean implementation class OffreService
+ */
+@Stateless
+@LocalBean
+public class offreService {
+
+    @PersistenceContext(unitName = "flexgym")
+    private EntityManager em;
+
+    /**
+     * Default constructor.
+     */
+    public offreService() {
+        // TODO Auto-generated constructor stub
+    }
+
+    public List<Offre> getAllOffres() {
+        List<Offre> offres = new ArrayList<>();
+        TypedQuery<Offre> query = em.createNamedQuery("Offre.findAll", Offre.class);
+        offres = query.getResultList();
+        return offres;
+    }
+
+    public List<Offre> deleteOffreById(int offreId) {
+        List<Offre> offres = new ArrayList<>();
+        Offre offre = em.find(Offre.class, offreId);
+        if (offre != null) {
+            em.remove(offre);
+        }
+        TypedQuery<Offre> query = em.createNamedQuery("Offre.findAll", Offre.class);
+        offres = query.getResultList();
+        return offres;
+    }
+
+    public Offre getOffreById(int offreId) {
+        return em.find(Offre.class, offreId);
+    }
+
+    public Offre modifyOffre(Offre offre) {
+        Offre existingOffre = em.find(Offre.class, offre.getOffreId());
+        if (existingOffre != null) {
+            existingOffre.setOffreNom(offre.getOffreNom());
+            existingOffre.setOffreDetail(offre.getOffreDetail());
+            existingOffre.setOffrePrix(offre.getOffrePrix());
+            // Update other attributes as needed
+            em.persist(existingOffre);
+        }
+        return existingOffre;
+    }
+
+    public Offre addOffre(Offre offre) {
+        em.persist(offre);
+        return offre;
+    }
+}
+

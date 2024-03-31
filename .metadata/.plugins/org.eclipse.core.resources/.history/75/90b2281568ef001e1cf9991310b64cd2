@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+label, h6{
+    color:white;
+}
+h1{
+    color: #E7FE58;
+}
+#emailHelp{
+    color:#d4d5d7;
+}
+.title{
+    margin-bottom: 15px;
+}
+
+.input-class{
+    margin-bottom:10px;
+}
+
+href body{
+    background-image: url('${pageContext.request.contextPath}/images/bw.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo, .logo:visited {
+    font-size: 24px;
+    font-weight: 600;
+    color: white !important;
+    text-decoration: none !important;
+    cursor: pointer;  
+}
+
+.green-span {
+    color: #E7FE58;
+}
+
+.button-custom{
+    float:right;
+}

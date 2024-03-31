@@ -1,0 +1,20 @@
+package mvcModel;
+
+import jakarta.ejb.LocalBean;
+import jakarta.ejb.Stateless;
+
+/**
+ * Session Bean implementation class abonnementService
+ */
+@Stateless
+@LocalBean
+public class abonnementService {
+
+    /**
+     * Default constructor. 
+     */
+    public abonnementService() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

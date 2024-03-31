@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../../../../../assets/anastase-maragos-HyvE5SiKMUs-unsplash.jpg" alt="hero-image" class="img-fluid" style="border-radius: 10px; max-width: 100%; height: auto; margin-top: 100px;">
+        </div>
+        <div class="col-md-5 box-hero justify-content-center" style="margin-top: 170px; margin-left: 60px;">
+            <h2 class="hero-title" style="color: white; font-size: 64px; font-weight: 600; margin-bottom: 20px;">Join our<br><span class="span-green" style="color: #D6F525;">Community</span></h2>
+            <p class="hero-text" style="font-size: 16px; color: white; font-weight: 500; line-height: 1.7;">Flex Gym isn't just about reps and sets; it's where we ignite your passion for fitness and sculpt your inner strength.</p>
+            <div class="button-hero" style="margin-top: 20px; margin-bottom: 150px;">
+                <button style="background-color: #E7FE58; color: #000;">Check Offres</button>
+            </div>
+        </div>
+    </div>
+</div>

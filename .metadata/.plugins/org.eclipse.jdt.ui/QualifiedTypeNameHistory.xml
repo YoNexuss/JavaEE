@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="entities.Abonnement"/>
+    <fullyQualifiedTypeName name="entities.Calendrier"/>
+    <fullyQualifiedTypeName name="entities.Client"/>
+    <fullyQualifiedTypeName name="entities.Cour"/>
+    <fullyQualifiedTypeName name="entities.Personnel"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="jakarta.ejb.EJB"/>
+    <fullyQualifiedTypeName name="mvcModel.offreService"/>
+    <fullyQualifiedTypeName name="entities.Offre"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>
